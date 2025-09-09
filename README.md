@@ -44,7 +44,7 @@ For lower parameter models, modern budget alternatives such as the **RTX 4060 TI
 
 ---
 
-## Use OpenWebUI
+## Using OpenWebUI
 
 > [!NOTE]
 > OpenWebUI uses the Ollama API to connect to the models. Additional model and API information can be found on the [Ollama Site](https://ollama.com)
