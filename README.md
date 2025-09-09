@@ -1,6 +1,9 @@
 # Running OpenWebUI on QuickPod  
 **Last updated:** September 8, 2025
 
+> [!NOTE]
+> To skip to the Guide, go [Here](https://github.com/quickpod/OpenWebUI?tab=readme-ov-file#guide).
+
 ---
 # Introduction
 
