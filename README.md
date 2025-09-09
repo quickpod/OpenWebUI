@@ -1,8 +1,11 @@
 # Running OpenWebUI on QuickPod  
-**Last updated:** September 8, 2025
+
+### OpenWebUI - The Easiest Local LLM Experience
+
+**Last updated:** September 9, 2025
 
 > [!NOTE]
-> To skip to the Guide, go [Here](https://github.com/quickpod/OpenWebUI?tab=readme-ov-file#guide).
+> To skip to the **Guide**, go **[Further down This Page](https://github.com/quickpod/OpenWebUI?tab=readme-ov-file#guide).**
 
 ---
 # Introduction
@@ -27,10 +30,10 @@ This has an account function, which means multiple users can generate on the sam
 
    ![image](https://github.com/quickpod/OpenWebUI/blob/main/Photos/SelectButton.png?raw=true)
 
-3. Choose a machine:
-
 > [!NOTE]
-> Ollama supports using multiple GPUs for large models although it's not recommended. It also supports using multiple models at the same time.
+> Ollama supports using multiple GPUs for large models although it's not recommended. It also supports using multiple models at the same time with different accounts, which is a feature that works very well.
+
+3. Choose a machine:
    
    - **CPU:** Many Cores, High speed Memory important. Will often be slower than GPU assisted.
    - **GPU:** High speed VRAM is the most crucial part, although capacity also plays a role. For best results, I'd recommend: \
@@ -50,16 +53,22 @@ For lower parameter models, modern budget alternatives such as the **RTX 4060 TI
 ## Using OpenWebUI
 
 > [!NOTE]
-> OpenWebUI uses the Ollama API to connect to the models. Additional model and API information can be found on the [Ollama Site](https://ollama.com)
+> *OpenWebUI* uses the **Ollama API** to connect to the models. Additional model and API information can be found on the **[Ollama Site](https://ollama.com).**
 
 1. Make the Admin Credentials 
 
 ![image](https://github.com/quickpod/OpenWebUI/blob/main/Photos/LoginExample.png?raw=true)
 
-2: Download your First Model
+
 
 > [!NOTE]
-> All models with details can be found in the [Ollama Model Collection](https://ollama.com/search).
+> All models with details can be found in the **[Ollama Model Collection](https://ollama.com/search).**
+
+2: Download your First Model
+
+- Go to the **Models Menu** on the left and type in any model from the **Ollama Model Collection.** 
+- Click **Pull [Your-Model] From Ollama.com.** 
+- **Wait** For it to download.
 
 ![image](https://github.com/quickpod/OpenWebUI/blob/main/Photos/ModelExample.png?raw=true)
 
@@ -71,4 +80,4 @@ For lower parameter models, modern budget alternatives such as the **RTX 4060 TI
 
 
 > [!NOTE]
-> The Ollama API has also been forwarded at internal port 11434 and is accessable outside the container by default. Several WebUI's use Ollama, so this template can also be used as an Ollama base server.
+> The **Ollama API** has also been forwarded at internal **Port 11434** and is accessable outside the container by default from the *Second Port Forward Box*. Several WebUI's use Ollama, so this template can also be used as an Ollama base server.
