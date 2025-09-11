@@ -2,7 +2,7 @@
 
 ### OpenWebUI - The Easiest Local LLM Experience
 
-**Last updated:** September 9, 2025
+**Last updated:** September 10, 2025
 
 > [!NOTE]
 > To skip to the **Guide**, go **[Further down This Page](https://github.com/quickpod/OpenWebUI?tab=readme-ov-file#guide).**
@@ -20,7 +20,7 @@ This has an account function, which means multiple users can generate on the sam
 # Guide
 
 > [!NOTE]
-> Although it's not reccomended, Ollama supports running CPU-Only without GPU Acceleration. Use this guide but just with the OpenWebUI-CPU template.
+> Ollama supports running CPU-Only without GPU Acceleration, although it is slower. Use this guide but just with the OpenWebUI-CPU template.
 
 
 ## Create Your Pod
@@ -35,7 +35,7 @@ This has an account function, which means multiple users can generate on the sam
 
 3. Choose a machine:
    
-   - **CPU:** Many Cores, High speed Memory important. Will often be slower than GPU assisted.
+   - **CPU:** Many Cores, High speed Memory important. Will often be slower than GPU assisted. CPU RAM > Model Size.
    - **GPU:** High speed VRAM is the most crucial part, although capacity also plays a role. For best results, I'd recommend: \
          RTX 5090, 32GB GDDR7 \
          RTX 4090, 24GB GDDR6X \
@@ -69,6 +69,12 @@ For lower parameter models, modern budget alternatives such as the **RTX 4060 TI
 - Go to the **Models Menu** on the left and type in any model from the **Ollama Model Collection.** 
 - Click **Pull [Your-Model] From Ollama.com.** 
 - **Wait** For it to download.
+
+**A Few Reccomended Models:**
+- `gemma3` **A Lightweight, fast multi-model from Google.**
+- `llama3.1` **A Popular model from Meta that has very large parameter sizes available.**
+- `deepseek-r1` **A Reasoning model that has a variety of sizes.**
+- `gpt-oss` **A Lightweight GPT by OpenAI with Reasoning and well-made Quantization.**
 
 ![image](https://github.com/quickpod/OpenWebUI/blob/main/Photos/ModelExample.png?raw=true)
 
